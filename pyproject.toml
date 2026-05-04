@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sword-packager"
+version = "0.1.0"
+description = "Build and deposit SWORD packages from a CSV metadata file and a directory of payload files."
+authors = ["J Evans"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "sword_packager" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^6.0"
+requests = "^2.32"
+typer = ">=0.13"
+rich = "^13.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2"
+
+[tool.poetry.scripts]
+sword-packager = "sword_packager.cli:app"
+
+[build-system]
+requires = ["poetry-core>=1.7.0"]
+build-backend = "poetry.core.masonry.api"
