@@ -71,6 +71,11 @@ This tool implements **SWORD v1.3 and SWORD v2** deposit. Pick the format that m
 - **SWORDv2 strict multipart deposit.** The `atom` builder produces a SimpleZip-style single POST. Most v2 servers accept this, but a server that strictly requires `multipart/related` (Atom entry + media as separate parts) won't. Extending `deposit.py` to add multipart support is straightforward.
 - **CRUD operations.** No `PUT` (replace), `DELETE`, or container-level updates that SWORDv2 added on top of v1.3. This is deposit-only — one POST per record.
 
+## Requirements
+
+- Python 3.10+
+- [Poetry](https://python-poetry.org/)
+
 ## Install
 
 ```bash
