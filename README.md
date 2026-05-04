@@ -79,6 +79,8 @@ This tool implements **SWORD v1.3 and SWORD v2** deposit. Pick the format that m
 ## Install
 
 ```bash
+git clone https://github.com/JamesEvansGit/sword-packager.git
+cd sword-packager
 poetry install
 ```
 
