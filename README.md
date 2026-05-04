@@ -4,6 +4,7 @@
 
 ** IMPORTANT NOTE: as of April 2026, this project is 'work in progress' v0.1.0 can submit a mets sword v1 package, but other aspects, particularly related to Sword v2 require bug fixes and improvements.**
 
+> **Disclaimer:** This software is provided as-is, without warranty of any kind, express or implied. Use at your own risk. The work undertaken on this project is not aligned with any specific public or private company, enterprise or organisation.
 
 ## Purpose
 
