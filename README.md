@@ -1,8 +1,8 @@
-# sword-packager for DSpace (and Eprints)
+# SWORD Packager and Submission Tools for DSpace (and Eprints)
 
 ## May 2026 - Work in Prgress
 
-** IMPORTANT NOTE: as of April 2026, this project is 'work in progress' v0.1.0 can submit a mets sword v1, but other aspects require bug fixes and improvements.**
+** IMPORTANT NOTE: as of April 2026, this project is 'work in progress' v0.1.0 can submit a mets sword v1 package, but other aspects, particularly related to Sword v2 require bug fixes and improvements.**
 
 
 ## Purpose
